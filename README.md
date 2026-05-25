@@ -1,17 +1,43 @@
-HowClothes es una aplicación web desarrollada con Flask, que permite a los usuarios:
+# 👕 HowClothes – ¿Tu prenda combina?
 
-  -  Registrarse y confirmar su cuenta por correo electrónico.
-  -  Iniciar sesión de forma segura.
-  -  Recuperar la contraseña mediante enlace temporal.
-  -  Subir una imagen de una prenda.
-  -  Analizar los colores predominantes y comprobar si la combinación de colores es adecuada (cálida, fría, neutra o mal combinada).
+**HowClothes** es una aplicación web inteligente que analiza los colores de una prenda de vestir y te dice si su combinación cromática es acertada o no. Solo sube una foto y el sistema hará el resto.
 
+✨ **Prueba la aplicación aquí:** [https://howclothes.onrender.com/](https://howclothes.onrender.com/)
 
+---
 
-Además, incluye funcionalidades como:
+## ✨ ¿Qué puedes hacer?
 
-  -  Seguridad de contraseñas con hash.
-  -  Envío de emails con Flask-Mail.
-  -  Procesamiento de imágenes con PIL.
-  -  Análisis de colores usando Machine Learning (KMeans).
+- 📝 **Registrarte** y confirmar tu cuenta mediante un enlace enviado a tu correo.
+- 🔐 **Iniciar sesión** de forma segura.
+- 🔄 **Recuperar tu contraseña** con un enlace temporal.
+- 🖼️ **Subir una imagen** de cualquier prenda.
+- 🎨 **Analizar colores predominantes** y saber si la combinación es:
+  - Cálida
+  - Fría
+  - Neutra
+  - Mal combinada
 
+---
+
+## 🧠 ¿Cómo funciona por dentro?
+
+- **Seguridad:** contraseñas almacenadas con hash.
+- **Correos:** envío automático con Flask-Mail.
+- **Imagen:** procesamiento con la librería PIL (Pillow).
+- **Análisis de color:** se utiliza **Machine Learning** (algoritmo KMeans) para agrupar los colores principales y evaluar su armonía.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Área          | Tecnologías                          |
+|---------------|--------------------------------------|
+| Backend       | Python, Flask                        |
+| Base de datos | SQLite + Flask-SQLAlchemy            |
+| Autenticación | Flask-Login                          |
+| Emails        | Flask-Mail                           |
+| Imagen        | Pillow (PIL)                         |
+| ML / Colores  | Scikit-learn (KMeans)                |
+
+---
