@@ -1,6 +1,7 @@
 # 👕 HowClothes – ¿Tu prenda combina?
 
 **HowClothes** es una aplicación web inteligente que analiza los colores de una prenda de vestir y te dice si su combinación cromática es acertada o no. Solo sube una foto y el sistema hará el resto.
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
