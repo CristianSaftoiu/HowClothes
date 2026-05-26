@@ -9,7 +9,7 @@ from sklearn.cluster import KMeans
 import numpy as np
 
 app = Flask(__name__, instance_relative_config=True)
-app.secret_key = 'Tatimami2005'
+app.secret_key = ''
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(app.instance_path, 'usuarios.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
